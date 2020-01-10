@@ -7,8 +7,8 @@
 #page{
   margin: 0 20%;
 }
-#page div{
-  margin: 0 auto;
+.exercice{
+  margin: 2% auto;
 }
 h1{
   text-align: center;
@@ -19,12 +19,22 @@ h2{
 a{
   text-decoration: none;
 }
+legend{
+  text-align: left;
+  color: whitesmoke;
+  background-color: black;
+}
+hr{
+  padding: 1px;
+  background-color: tomato;
+}
 /* ---------------- exercice 1 ---------------------*/
 .planDeTravail{
   width: 300px;
   height: 300px;
   padding: 30px;
   background-color: black;
+  margin: 0 auto 2%;
 }
 #ex1Vert{
   width: 240px;
@@ -53,6 +63,7 @@ a{
   width: 300px;
   height: 300px;
   background-color: black;
+  margin: 0 auto 2%;
 }
 #ex2Vert{
   width: 240px;
@@ -60,13 +71,14 @@ a{
   background-color: green;
   position: relative;
   top: 30px;
+  left: 30px;
 }
 #ex2Bleu{
   width: 200px;
   height: 200px;
   background-color: blue;
   position: relative;
-  left: 40px;
+  left: 55px;
   top: 20px;
 }
 #ex2Orange{
@@ -74,7 +86,7 @@ a{
   height: 150px;
   background-color: chocolate;
   position: relative;
-  left: -103px;
+  left: -70px;
   top: 25px;
 }
 /*--------------------exercice 3--------------------*/
@@ -83,6 +95,7 @@ a{
   width: 300px;
   height: 465px;
   background-color: black;
+  margin: 0 auto 2%;
 }
 #ex3Vert{
   width: 240px;
@@ -114,6 +127,7 @@ a{
   width: 600px;
   height: 465px;
   background-color: black;
+  margin: 0 auto 2%;
 }
 #grandBloc{
   width: 550px;
@@ -147,44 +161,45 @@ a{
   top: 150px;
 }
 /*--------------------exercice 5--------------------*/
-  #planDeTravail4{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    background-color: black;
-  }
-  #ex5Vert{
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    position: absolute;
-    left: 25px;
-    top: 25px;
-  }
-  #ex5Bleu{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    position: absolute;
-    left: 175px;
-    top: 25px;
-  }
-  #ex5Orange{
-    width: 100px;
-    height: 100px;
-    background-color: chocolate;
-    position: absolute;
-    left: 25px;
-    top: 175px;
-  }
-  #ex5Teal{
-    width: 100px;
-    height: 100px;
-    background-color: teal;
-    position: absolute;
-    left: 175px;
-    top: 175px;
-  }
+#planDeTravail4{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 0 auto 2%;
+}
+#ex5Vert{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+#ex5Bleu{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 175px;
+  top: 25px;
+}
+#ex5Orange{
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  position: absolute;
+  left: 25px;
+  top: 175px;
+}
+#ex5Teal{
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  position: absolute;
+  left: 175px;
+  top: 175px;
+}
 
 /*--------------------exercice 6--------------------*/
 
@@ -193,6 +208,7 @@ a{
   width: 300px;
   height: 300px;
   background-color: black;
+  margin: 0 auto 2%;
 }
 #ex6Vert{
   width: 100px;
@@ -234,6 +250,7 @@ a{
   width: 300px;
   height: 300px;
   background-color: black;
+  margin: 0 auto 2%;
 }
 #ex7Vert{
   width: 100px;
@@ -271,7 +288,6 @@ nav{
   position: fixed;
   top: 50%;
 }
-
 nav ul{
   list-style: none;
 }
