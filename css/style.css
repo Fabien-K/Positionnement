@@ -1,0 +1,31 @@
+*{
+  box-sizing:border-box ;  
+  margin: 0;
+  padding: 0;
+}
+
+.planDeTravail{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+#ex1Vert{
+  width: 90%;
+  height: 90%;
+  background-color: green;
+  margin: 15px auto;
+  
+
+}
+#ex1Bleu{
+  width: 75%;
+  height: 75%;
+  background-color: blue;
+  margin: auto;
+}
+#ex1Orange{
+  width: 60%;
+  height: 60%;
+  background-color: chocolate;
+  margin: auto;
+}
