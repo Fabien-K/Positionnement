@@ -161,7 +161,7 @@ hr{
   left: 160px;
   top: 150px;
 }
-/*--------------------exercice 5--------------------*/
+/*--------------------exercice 5 V absolute--------------------*/
 #planDeTravail4{
   position: relative;
   width: 300px;
@@ -201,7 +201,46 @@ hr{
   left: 175px;
   top: 175px;
 }
-
+/*--------------------exercice 5 V relative--------------------*/
+#planDeTravail4{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 0 auto 2%;
+}
+#ex5bVert{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: relative;
+  left: 25px;
+  top: 25px;
+}
+#ex5bBleu{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  left: 175px;
+  top: -75px;
+}
+#ex5bOrange{
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  position: relative;
+  left: 25px;
+  top: -25px;
+}
+#ex5bTeal{
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  position: relative;
+  left: 175px;
+  top: -125px;
+}
 /*--------------------exercice 6--------------------*/
 
 #planDeTravail5{
@@ -285,14 +324,14 @@ hr{
   float: right;
 }
 /*--------------------exercice 8--------------------*/
-nav{
-  position: fixed;
-  top: 50%;
+
+ul{
+  list-style: none; 
+  position: sticky;
+  top: 20px;
   background-color: teal;
   padding:5px 10px;
-}
-nav ul{
-  list-style: none;
+  width: 120px;
 }
 nav ul li a{
   color: aliceblue;
